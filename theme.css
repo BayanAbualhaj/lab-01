@@ -1,23 +1,23 @@
 .a{
-    background-color: purple;
+    background-color: rgb(245, 10, 245);
 }
 
 .b{
-    background-color: rgb(141, 21, 141);
+    background-color: rgb(231, 154, 231);
 }
 
 .c {
-    background-color: rgb(83, 24, 83);
+    background-color: rgb(141, 27, 141);
 }
 
 .d{
-    background-color: rgb(158, 120, 158);
+    background-color: rgb(165, 91, 165);
 }
 
 .e,.f,.g,.h{
-    background-color: rgb(248, 97, 248);
+    background-color: rgb(248, 145, 248);
 }
 
-footer{
-    background-color: rgb(29, 8, 29);
+.i{
+    background-color: rgb(104, 65, 104);
 }

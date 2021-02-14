@@ -21,3 +21,30 @@
 .i{
     background-color: rgb(104, 65, 104);
 }
+
+
+@media(min-width:768){
+    .a{
+        background-color: rgb(236, 173, 187);
+    }
+    
+    .b{
+        background-color:rgb(116, 39, 39);
+    }
+    
+    .c {
+        background-color:rgb(163, 36, 36);
+    }
+    
+    .d{
+        background-color: rgb(138, 32, 46);
+    }
+    
+    .e,.f,.g,.h{
+        background-color: rgb(207, 109, 109);
+    }
+    
+    .i{
+        background-color: rgb(97, 38, 38);
+    }
+}

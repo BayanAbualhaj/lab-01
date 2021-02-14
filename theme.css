@@ -21,9 +21,7 @@
 .i{
     background-color: rgb(104, 65, 104);
 }
-
-
-@media(min-width:768){
+@media(min-width:768px){
     .a{
         background-color: rgb(236, 173, 187);
     }

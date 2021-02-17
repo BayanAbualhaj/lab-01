@@ -2,81 +2,192 @@
     text-align: center;
 }
 
-
 .a{
-    height: 75px;
-    line-height: 75px;
+    grid-column-start: 1 ;
+    grid-column-end: 3 ;
+    grid-row-start:1 ;
+    grid-row-end:2 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .b{
-    height: 150px;
-    line-height: 150px;
+    grid-column-start: 1 ;
+    grid-column-end: 3 ;
+    grid-row-start:2 ;
+    grid-row-end:3 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.c,.d{
+/* .c,.d{
     height: 125px;
     line-height: 125px;
+} */
+
+.c{
+    grid-column-start: 1 ;
+    grid-column-end: 3 ;
+    grid-row-start:3 ;
+    grid-row-end:4 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d{
+    grid-column-start: 1 ;
+    grid-column-end: 3 ;
+    grid-row-start:4 ;
+    grid-row-end:5 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
-.e,.f,.g,.h{
-    height: 250px;
-    display: inline-block;
-    width: 50%;
-    line-height: 250px;
-    
+.e{
+    grid-column-start: 1 ;
+    grid-column-end: 2 ;
+    grid-row-start:5;
+    grid-row-end:6 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.e,.g{
-    float: left;
+
+.f{
+    grid-column-start: 2 ;
+    grid-column-end: 3;
+    grid-row-start:5;
+    grid-row-end:6 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.f,.h{
-    float: right;
+.g{
+    grid-column-start: 1 ;
+    grid-column-end: 2 ;
+    grid-row-start:6;
+    grid-row-end:7 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h{
+    grid-column-start: 2 ;
+    grid-column-end: 3 ;
+    grid-row-start:6;
+    grid-row-end:7 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .i{
-    height: 80px;
-    line-height: 80px;
+    grid-column-start: 1 ;
+    grid-column-end: 3 ;
+    grid-row-start:7;
+    grid-row-end:8 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 @media(min-width:768px){
     .a{
-        height: 100px;
+        grid-column-start: 1 ;
+        grid-column-end: 6 ;
+        grid-row-start:1;
+        grid-row-end:2 ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .b{
-        float: left;
-        width: 20%;
-        height: 600px;
-        
-    }
-
-    .c,.d{
-        width: 40%;
-        display: inline-block;
-        height: 200px;
+        grid-column-start: 1 ;
+        grid-column-end: 2 ;
+        grid-row-start:2;
+        grid-row-end:5 ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .c{
-        float: left;
+        grid-column-start: 2 ;
+        grid-column-end: 4;
+        grid-row-start:2;
+        grid-row-end:3 ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .d{
-        float: right;
+        grid-column-start: 4 ;
+        grid-column-end: 6 ;
+        grid-row-start:2;
+        grid-row-end:3 ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    .e,.f,.g,.h{
-        width: 20%;
-        display: inline-block;
-        height: 250px;
+    .e{
+        grid-column-start: 2 ;
+        grid-column-end: 3 ;
+        grid-row-start:3;
+        grid-row-end:4 ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .f{
+        grid-column-start: 3 ;
+        grid-column-end: 4 ;
+        grid-row-start:3;
+        grid-row-end:4 ;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+
+    .g{
+        grid-column-start: 4 ;
+        grid-column-end: 5 ;
+        grid-row-start:3;
+        grid-row-end:4 ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .h{
+        grid-column-start: 5 ;
+        grid-column-end: 6;
+        grid-row-start:3;
+        grid-row-end:4 ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .i{
-        height: 150px;
-        float: right;
-        display: block;
-        width: 80%;
+        grid-column-start: 2 ;
+        grid-column-end: 6 ;
+        grid-row-start:4;
+        grid-row-end:5 ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
